@@ -1,0 +1,286 @@
+<!doctype html>
+<html>
+<head>	
+	<script language="JavaScript" type="text/javascript"><!--
+	function GetText() {
+		var sourceElement = document.getElementById("BehaviorBox1");
+		var targetElement = document.getElementById("BehaviorBox2");
+        ;
+
+		targetElement.value = sourceElement.value;
+	}
+		
+			function GetTexta() {
+		var sourceElement = document.getElementById("AltBehaviorBox1");
+		var targetElement = document.getElementById("AltBehaviorBox2");
+        ;
+
+		targetElement.value = sourceElement.value;
+	}
+		
+				function GetTextb() {
+		var sourceElement = document.getElementById("AltBehaviorBox3");
+		var targetElement = document.getElementById("AltBehaviorBox4");
+        ;
+
+		targetElement.value = sourceElement.value;
+	}
+
+					function GetTextc() {
+		var sourceElement = document.getElementById("OptoutBox1");
+		var targetElement = document.getElementById("OptoutBox2");
+        ;
+
+		targetElement.value = sourceElement.value;
+	}
+	// --></script>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+.Top {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+}
+</style>
+</head>
+
+<body>
+<p align="center" class="Top"><strong style="font-size: 36px">TOOL ONE: Is there Genuine Assent? </strong></p>
+<p><span style="font-size: 18px"><strong>Purpose: </strong>The  purpose of this tool is to assess and program for genuine assent. This tool may  be useful for the following situations: (1) ascertaining whether genuine assent  is present or not, (2) troubleshooting a current program, or (3) planning for  the implementation of a new program.  <br>
+  </span><br>
+<strong style="font-size: 18px">Directions: </strong>With  a learner and program in mind, answer the following questions. Navigate to  additional tools as needed. </p>
+<ol start="1" type="1">
+  <li>What is the learning       objective?
+    
+    <input name="textfield" type="text" class="Top" id="textfield" size="80" >
+  </li>
+</ol>
+<ol start="2" type="1">
+  <li>Based on the learning objective above, what is the specific behavior you are trying to teach?       Fill out the table below.  </li>
+</ol>
+<table border="1" cellspacing="0" cellpadding="0" width="80%" align="center">
+  <tr>
+    <td width="33%" align="center" valign="top"><strong>A (Antecedent context)          </strong></td>
+    <td width="33%" align="center" valign="top"><strong>B (Behavior) </strong></td>
+    <td width="33%" align="center" valign="top"><strong style="text-align: center">C (Reinforcer) </strong></td>
+  </tr>
+  <tr>
+    <td width="33%" align="left">
+		<div class="container" align="center">&nbsp;<input name="Ant" type="text" class="Top" id="Ant-box" style="background-color: #69B5FB" size="30">
+			<script>
+var post_item = document.getElementById("Ant-box");
+var btn = document.getElementById("btn-submit");
+
+addEventListener("keyup", function changeValue()
+{
+console.log(post_item.value);
+document.getElementById("Ant-display").innerHTML = post_item.value;
+});
+
+</script>
+	
+ </div> </td>
+          <span style="text-align: left"></span>    
+          <div class="container" align="left"><td width="33%" height="40" valign="middle">&nbsp;Specified Behavior: <form action="#"> <center><input id="BehaviorBox1" type="text" class="Top"  form="d" size="30" style="background-color: green"; onBlur="GetText();" ></center>
+			  </form>
+          </label>
+	  </div>
+
+            
+
+    <span style="text-align: left"></span>    
+    <td width="33%" height="40" valign="middle" align="center">
+      <input name="Beh2" type="text" class="Top" id="Beh3" form="d" size="30" style="background-color: Pink";>
+      <br>
+            <form>
+    <label for="Behavior" id="behavior" align="center"></label><center></center>
+  </form>
+  </tr>
+</table>
+<ol start="3" type="1">
+  <li>The table above       demonstrates one way for the learner to earn this reinforcer in this \program. Within the same program, is there another response the learner       can engage in to earn the same reinforcer?  </li>
+</ol>
+<p>&nbsp;</p>
+<p>Yes: Write the alternative behavior in the table below. <br>
+  No: It is necessary for an alternative behavior to be  specified in order for genuine assent to be established. Before moving forward,  identify an alternative behavior within the same program and write it in the  table below. </p>
+<blockquote>
+  <blockquote>
+    <p>  Note: Multiple rows are included if needed, but only  one additional behavior to earn the reinforcer is required. </p>
+  </blockquote>
+</blockquote>
+<table border="1" cellspacing="0" cellpadding="0" width="80%" align="center">
+  <tr>
+    <td width="33%" valign="top" align="center"><strong>A (Antecedent context)</strong></td>
+    <td width="33%" valign="top" align="center"><strong>B (Behavior)</strong></td>
+    <td width="33%" valign="top" align="center"><strong>C (Reinforcer)</strong></td>
+  </tr>
+  <tr>
+    <td width="208" rowspan="2" align="center" valign="middle" bgcolor="#69B5FB"><strong><p id="p-display"></p></strong></td>
+   <span style="text-align: left"></span>    
+          <div class="container" align="left">
+            <td width="33%" height="40" valign="middle">&nbsp;Altenative behavior 1: 
+              <form action="#"> <center><input id="AltBehaviorBox1" type="text" class="Top"  form="d" size="30" style="background-color: purple"; onBlur="GetTexta();" ></center>
+			  </form>
+          </label>
+	  </div>
+
+    </td>
+   
+  </tr>
+  <tr>
+    <span style="text-align: left"></span>    
+          <div class="container" align="left">
+            <td width="33%" height="40" valign="middle">&nbsp;Altenative behavior 2: 
+              <form action="#"> <center><input id="AltBehaviorBox3" type="text" class="Top"  form="d" size="30" style="background-color: palevioletred"; onBlur="GetTextb();" ></center>
+			  </form>
+          </label>
+	  </div>
+
+    </td>
+  </tr>
+</table>
+<p><strong>&nbsp;</strong></p>
+<ol start="4" type="1">
+  <li>In the context of the program, has the learner been taught an opt-out response (e.g., vocally       requesting to take a break, leaving the area, putting head down)? </li>
+</ol>
+<p>Yes: Write it in the table below.   <br>
+  No: It is necessary for an opt-out response to be specified  in order for genuine assent to be established. Before moving forward, identify  an opt-out response and write it in the table below. </p>
+<table border="1" cellspacing="0" cellpadding="0" width="80%" align="center">
+  <tr>
+    <td width="33%" align="center" valign="top"><strong>A (Antecedent context)          </strong></td>
+    <td width="33%" align="center" valign="top"><strong>B (Behavior) </strong></td>
+    <td width="33%" align="center" valign="top"><strong style="text-align: center">C (Reinforcer) </strong></td>
+  </tr>
+  <tr>
+    <td width="33%" align="center" valign="middle" bgcolor="#69B5FB">
+
+
+	</div><strong><p id="p-display2"></p></strong></td>
+    <span style="text-align: left"></span>    
+          <div class="container" align="left">
+            <td width="33%" height="40" valign="middle">&nbsp;Programmed opt-out response: 
+              <form action="#"> <center><input id="OptoutBox1" type="text" class="Top"  form="d" size="30" style="background-color: orangered"; onBlur="GetTextc();" ></center>
+			  </form>
+          </label>
+	  </div>
+
+    </td>
+    
+    <td width="33%"></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<ol start="5" type="1">
+  <li>The table below represents the available alternative behaviors the individual can engage in to access the reinforcer. Please select the behavior that is occuring the most frequently.									 </li>
+</ol>
+<table border="1" cellspacing="0" cellpadding="0" width="80%" align="center">
+  <tr>
+    <td width="33%" valign="top" align="center"><strong>A (Antecedent context)</strong></td>
+	  <td width="33%" valign="top"align="center"><strong>B (Behavior)</Strong> </td>
+	  <td width="624" valign="top" align="center"><strong>C (Reinforcer) </Strong></td>
+  </tr>
+  <tr>
+    <td width="33%" rowspan="5" valign="middle" bgcolor="#69B5FB"><strong><p id="p-display3" style="text-align: center"></p></strong></td>
+    <td width="33%" align="left" valign="top">Specified Behavior: <input id="BehaviorBox2" type="text" class="Top"  form="d" size="30" style="background-color: green";></td> </form>
+    <td width="624" rowspan="3" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top"><p><cell onclick="AlternativeWindow()"></button>
+
+<script>
+function AlternativeWindow() {
+  alert("If the alternative behavior is occurring most often, genuine assent is likely present, but the program needs to be modified in order to help the learner engage in the specified behavior. Move on to Tool 2. ");
+}
+</script>
+Alternative behavior 1: <input id="AltBehaviorBox2" type="text" class="Top"  form="d" size="30" style="background-color: purple";></td> </form></p></td>
+  </tr>
+  <tr>
+        <td width="33%" valign="top"><p><cell onclick="AlternativeWindow()"></button>
+
+<script>
+function AlternativeWindow() {
+  alert("If the alternative behavior is occurring most often, genuine assent is likely present, but the program needs to be modified in order to help the learner engage in the specified behavior. Move on to Tool 2. ");
+}
+</script>
+Alternative behavior 2: 
+<input id="AltBehaviorBox4" type="text" class="Top"  form="d" size="30" style="background-color: palevioletred";></td>
+  <tr>
+    <td width="33%" valign="top"><p><cell onclick="ProgrammedWindow()"></button>
+
+<script>
+function ProgrammedWindow() {
+  alert("Genuine assent is likely not present. The learner is frequently engaging in behavior to escape or avoid the program. The program is likely in need of modifications. Move on to Tool 3.");
+}
+</script>Programmed opt-out response: <input id="OptoutBox2" type="text" class="Top"  form="d" size="30" style="background-color: orangered";></p></td>
+    <td width="624" valign="top"><p>Escape/removal of demand </p></td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top"><p><cell onclick="OtherWindow()"></button>
+
+<script>
+function OtherWindow() {
+  alert("Genuine assent is likely not present. The learner is frequently engaging in behavior to escape or avoid the program. The program is likely in need of modifications. Move on to Tool 3. ");
+}
+</script>Other opt-out response: This type of opt-outresponse includes any response topography which terminates their participation the program </p></td>
+    <td width="624" valign="top"><p>Escape/removal of demand </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p></ol>
+</ol>
+</body>
+</html>
+
+<script>
+var post_item = document.getElementById("Ant-box");
+var btn = document.getElementById("btn-submit");
+
+addEventListener("keyup", function changeValue()
+{
+console.log(post_item.value);
+document.getElementById("p-display").innerHTML = post_item.value;
+});
+
+</script>
+<script>
+var post_item = document.getElementById("Ant-box");
+var btn = document.getElementById("btn-submit");
+
+addEventListener("keyup", function changeValue()
+{
+console.log(post_item.value);
+document.getElementById("p-display2").innerHTML = post_item.value;
+});
+
+</script>
+
+<script>
+var post_item = document.getElementById("Ant-box");
+var btn = document.getElementById("btn-submit");
+
+addEventListener("keyup", function changeValue()
+{
+console.log(post_item.value);
+document.getElementById("p-display3").innerHTML = post_item.value;
+});
+
+</script>
+
+
+<script>
+var post_item = document.getElementById("Ant-box");
+var btna = document.getElementById("btn-submit");
+
+addEventListener("keyup", function changeValue()
+{
+console.log(post_item.value);
+document.getElementById("Beh-display").innerHTML = post_item.value;
+});
+
+</script>
+
+
+
+
